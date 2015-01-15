@@ -2,13 +2,19 @@
 
     class IsoscelesTriangle
     {
-        static void Main(string[] args)
+        static void Main()
         {
             char a='\u00A9';
-            Console.WriteLine(a);
-            Console.WriteLine((string)a , (string)a);
+            Console.WriteLine(
+                 @"
+                 {0}
 
+                {0} {0}
 
+               {0}  {0}
+
+               {0}{0}{0}{0}", a);
+           
         }
     }
 
